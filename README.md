@@ -25,7 +25,7 @@ header-name: header-value
 ## Usage
 1. Start the server:
 ```
-python http-server.py
+python http_server.py
 ```
 
 2. Open a command line and send a request using `curl` to `http://localhost:40404/`, f.e. `curl -i localhost:40404/?status=512`. You should see the response headers displayed on the screen.
